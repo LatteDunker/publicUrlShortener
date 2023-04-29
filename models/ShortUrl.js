@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const shortId = require('shortid');
 
-// model.id = nanoid() //=> "V1StGXR8_Z5jdHi6B-myT"
-
 const shortUrlSchema = new mongoose.Schema({
     full: {
         type: String,

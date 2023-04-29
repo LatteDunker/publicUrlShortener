@@ -1,0 +1,23 @@
+.main {
+    max-width: 35rem;
+    padding: 2rem;
+}
+
+.gradient_kale {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    filter: grayscale(20%);
+    border: none;
+    transition: 0.2s;
+}
+
+.gradient_kale:hover {
+    filter: grayscale(0);
+}
+
+table {
+    table-layout: fixed;
+}
+
+tr {
+    word-wrap: break-word;
+}
