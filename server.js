@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ShortUrl = require('./models/ShortUrl');
 const app = express();
 
-const mongoDB = 'process.env.ENV_MONGO_URI';
+const mongoDB = process.env.ENV_MONGO_URI;
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true, useUnifiedTopology: true
